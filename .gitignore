@@ -9,9 +9,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # IntelliJ IDEA
-.idea/*
-.idea/workspace.xml
-.idea/tasks.xml
+.idea/
 *.iml
 *.ipr
 *.iws
@@ -40,13 +38,9 @@ bin/
 # Local environment overrides
 .env
 .env.*
+acp.json
+opencode.json
 
 # Keep wrappers and source-controlled configs
-!.idea/
-!.idea/.gitignore
-!.idea/gradle.xml
-!.idea/misc.xml
-!.idea/modules.xml
-!.idea/vcs.xml
 !editor/gradle/wrapper/gradle-wrapper.jar
 !editor/gradle/wrapper/gradle-wrapper.properties
