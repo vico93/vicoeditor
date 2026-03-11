@@ -1,6 +1,6 @@
-# XP-Style Asset Dimensions
+# Fuji-Style Asset Dimensions
 
-This project targets a Love2D runtime, but keeps RPG Maker XP-like asset dimensions and layout conventions.
+This project targets a Love2D runtime, but keeps fuji-style asset dimensions and layout conventions.
 
 ## Tile and Map Basics
 
