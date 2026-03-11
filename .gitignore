@@ -1,28 +1,52 @@
-### Windows ###
-# Windows thumbnail cache files
+# OS files
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
 [Dd]esktop.ini
-
-# Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
+*.stackdump
 *.lnk
 
-# Binaries
-/bin/
+# IntelliJ IDEA
+.idea/*
+.idea/workspace.xml
+.idea/tasks.xml
+*.iml
+*.ipr
+*.iws
+
+# Gradle
+.gradle/
+**/.gradle/
+
+# Java build output
+out/
+build/
+**/build/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Love2D / runtime temp files
+*.tmp
+*.temp
+
+# Local environment overrides
+.env
+.env.*
+
+# Keep wrappers and source-controlled configs
+!.idea/
+!.idea/.gitignore
+!.idea/gradle.xml
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!editor/gradle/wrapper/gradle-wrapper.jar
+!editor/gradle/wrapper/gradle-wrapper.properties
