@@ -5,4 +5,5 @@ module com.vicoeditor.editor {
 
     opens com.vicoeditor.editor to javafx.fxml;
     exports com.vicoeditor.editor;
+    exports com.vicoeditor.editor.assets;
 }
